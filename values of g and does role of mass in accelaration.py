@@ -39,7 +39,7 @@ from sklearn.preprocessing import PolynomialFeatures
 
 regressor=LinearRegression()
 #we are gonna consider polynomials upto 2 degree.
-poly=PolynomialFeatures(degree=2)
+poly=PolynomialFeatures(degree=3)
 x=poly.fit_transform(x)
 
 from sklearn.model_selection import train_test_split
